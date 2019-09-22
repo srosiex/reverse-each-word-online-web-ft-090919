@@ -11,7 +11,8 @@
 
 
 def reverse_each_word(sentence)
-  sentence.split.each do {|word| new_sentence << (word.reverse.join(' ')) }
+  sentence.split.each  {|word| 
+    new_sentence << (word.reverse.join(' ')) }
 
   new_sentence
 end
